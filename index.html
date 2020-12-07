@@ -1,515 +1,692 @@
-#kyaw-zin-aung.github.io
-Portfolio Website Design
-
-
-<!---Created By Ky4w 21n 4uN6--->
-
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <title>kyaw-zin-aung</title>
-
-    <meta name="description" content="An Amazing App is Waiting For You"/>
-
-    <meta name="keywords" content="App, seo, web positioning"/>
-
-    <meta name="author" content="Kyaw_Zin_Aung"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">  
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/css?family=Lacquer|Audiowide&display=swap" rel="stylesheet">
-
-    <script src="https://use.fontawesome.com/4a4265fbae.js"></script>
-
-    <style>
-
-
-
-
-
-html,body{
-
-    margin:0;
-
-    padding:0;
-
-}
-
-body{
-
-    font-family: 'Oxanium';
-
-    font-size:14px;
-
-    color:darkslategray;
-
-    background-color:cornsilk;
-
-}
-
-header.jumbotron{
-
-    background-color:steelblue;
-
-    font-family: 'Audiowide';
-
-}
-
-.first{
-
-    border:1px solid #ccc;
-
-    background-color:steelblue;
-
-    height:auto;
-
-    border-radius:40px 0 40px 0;
-
-    text-align:center;
-
-    box-shadow:2px 2px 8px lightgray;
-
-}
-
-.first img{
-
-    width:100px;
-
-    height:100px;
-
-    border-radius:20px 0 20px 0;
-
-    margin-top:10px;
-
-}
-
-.first i,.first a {
-
-    color:darkslategray;
-
-}
-
-.first i,#a{
-
-    text-shadow:2px 2px 6px cyan;
-
-}
-
-.second,.third{
-
-    text-align:center;
-
-}
-
-.wrap{
-
-    border-top:2px solid blanchedalmond;
-
-    background-color:white;
-
-    margin-top:10px;
-
-    border-radius:40px;
-
-    padding:10px;
-
-}
-
-h2{
-
-    font-size:20px;
-
-}
-
-h3{
-
-    font-size:18px;
-
-}
-
-h2,h3{
-
-    font-family: 'Lacquer';
-
-    color:darkslategray;
-
-    text-shadow:2px 2px 6px cyan;
-
-}
-
-.progress-bar{
-
-    font-weight:bold;
-
-}
-
-.salmon{
-
-    background-color:salmon;
-
-    border:1px solid wheat;
-
-}
-
-.black{
-
-    background-color:black;
-
-    border:1px solid wheat;
-
-}
-
-.tomato{
-
-    background-color:tomato;
-
-    border:1px solid wheat;
-
-}
-
-.gold{
-
-    background-color:gold;
-
-    border:1px solid wheat;
-
-}
-
-.khaki{
-
-    background-color:khaki;
-
-    border:1px solid wheat;
-
-}
-
-.lavender{
-
-    background-color:lavender;
-
-    border:2px solid wheat;
-
-}
-
-button{
-
-    width:20px;
-
-    height:20px;
-
-    border-radius:50%;
-
-    -webkit-border-radius:50%;
-
-}
-
-.tools img,.second .tools i{
-
-    width:20px;height:20px;
-    text-shadow:2px 2px 6px cyan;
-
-}
-
-.bottom{
-
-    position: fixed; 
-
-    bottom: 0; 
-
-    left: 0; 
-
-    right: 0; 
-
-    height: 25px; 
-
-    background-color:steelblue;
-
-    text-align: center;
-
-    box-shadow: 0px -4px 3px lightgray;
-
-}
-
-    </style>
-
-</head>
-
-<body>
-
-    <header class="jumbotron">
-
-        <div class="container">
-
-            <h1>myCV</h1>
-
-            <p>Online Portofolio </p>
-
-        </div>
-
-    </header>
-
-    <div class="container">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An Amazing App is Waiting For You" />
+    <meta name="keywords" content="App, SEO, Web PoaAsitioning" />
+    <meta name="author" content="Kyaw Zin Aung" />
+    <link rel="icon" type="image/png" href="#" />
+    <title>Kyaw Zin Aung</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster+Two|Mitr|Monoton|Pacifico|Sen&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body class="hid">
+    <div id="loader">
+      <div class="lds-facebook">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
 
-    <div class="container">
-
-        <section class="top">
-
-            <button class="salmon"></button>
-
-            <button class="black"></button>
-
-            <button class="tomato"></button>
-
-            <button class="gold"></button>
-
-            <button class="khaki"></button>
-
-            <button class="lavender"></button>
-
-        </section>
-
-        <div class="row">
-
-            <section class="first col-xs-6 col-sm-6 col-6 col-lg-6">
-
-                <img src="https://i.ibb.co/G9P6KJX/Pics-Art-11-22-11-54-14.jpg" alt="kyaw-zin-aung">
-
-                <h2>Kyaw Zin Aung</h2>
-
-                <p><b>Age</b> : Ask me :)</p>                                                                    
-
-                <p><b>Birthday</b> : October 12</p>                                                               
-
-                <p><i class="fa fa-language"> </i> 🇲🇲 🇺🇸 🇯🇵</p>
-
-                <p><i class="fa fa-phone-square" aria-hidden="true"> </i><a href="tel:+95 9254 407 758"> +95 9254 407 758</a></i></p>
-
-                <p><i class="fa fa-envelope"> </i><a href="mailto:mr.no6@outlook.com">mr.no6@outlook.com</a></p>
-
-                <p id="a">
-                
-                <b>Follow me </b> : 
-
-
-                    
-                <a href="https://www.facebook.com/kyawzinaung.yaw" class="fa fa-facebook" target="_blank"></a> 
-
-                <a href="https://www.twitter.com/KyawZin42414859" class="fa fa-twitter" target="_blank"></a> 
-
-                <a href="https://www.linkedin.com/in/kyaw-zin-aung-366a8b1b6" class="fa fa-linkedin" target="_blank"></a>
-
-
-
-                </p>
-
-                <h2><i class="fa fa-magic"></i> Interests</h2>
-
-                    
-
-                    <p class="interests">
-
-                        <i class="fa fa-code fa-lg"></i>
-
-                        <i class="fa fa-book fa-lg"></i>
-
-                        <i class="fa fa-music fa-lg"></i>
-
-                        <i class="fa fa-camera-retro fa-lg"></i>
-
-                        <i class="fa fa-laptop fa-lg"></i>
-
-                        <i class="fa fa-coffee fa-lg"></i>
-
-                    </p>
-
-            </section>
-
-                
-
-            <section class="second col-xs-6 col-sm-6 col-6 col-lg-6">
-
-                    <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h2>
-
-                    <p>Bachelor in IT & CS Student</p>
-
-                    <h2><i class="fa fa-cogs"></i> Skills</h2>                      
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Web Design</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:45%" aria-valuenow="45" aria-valuemin="0" aria-value-max="100">Python</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">C++/C#</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Java</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">SQL</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="progress">
-
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Bash/Shell</div>
-
-                    </div>
-
-                    <br>
-
-                    <div class="tools">
-
-                        <h3><i class="fa fa-wrench" aria-hidden="true"></i> Tools</h3>
-
-                            <i class="fa fa-linux" aria-hidden="true"></i>
-                        
-                            <i class="fa fa-android" aria-hidden="true"></i>
-
-                            <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" alt="">
-
-                            <i class="fa fa-terminal" aria-hidden="true"></i>
-                            
-                            <i class="fa fa-firefox" aria-hidden="true"></i>
-
-                    </div>
-
-            </section> 
-
-        </div>    
-
-        <div class="row wrap">
-
-                <section class="third col-sm col-12">
-
-                    <p>
-
-                        <h2>Follow me on GitHub</h2>
-
-                        <marquee>Thanks to GitHub community, you help me each day to improve my skills to become a better CODER 🙏🏿🙏🏿🙏🏿</marquee>
-
-                        <a href="https://www.github.com/kyaw-zin-aung" target="_blank"><img src="https://i.ibb.co/SKyDv26/github-profile.png" alt="GitHub"></a>
-
-                    
-
-                    </p>
-
-                </section>
-
+    <span id="container">
+      <main>
+        <span class="about">
+          <h1><st>Kyaw</st> Zin Aung</h1>
+          <h4>Web Developer | Designer</h4>
+          <span class="fa fa-user"><h5>Age-19</h5></span>
+          <span class="fa fa-phone"><h5><a href="tel:+95 9254 407 758" style="color:white;"> +95 9254 407 758</a></h5></span>
+          <span class="fa fa-envelope"><h5><a href="mailto:kyawzinaung@ucskt.edu.mm" style="color:white;">kyawzinaung@ucskt.edu.mm</a></h5></span>
+          <span class="fa fa-linkedin"><h5><a href="https://www.linkedin.com/in/kyaw-zin-aung-366a8b1b6" style="color:white;">kyaw-zin-aung</a></h5></span>
+        </span>
+        <div class="menu">
+          <div class="men aboutme" onclick="aboutopen()">
+            <span class="fa m fa-address-card"></span><e>About</e>
+          </div>
+          <div class="men gallery" onclick="galleryopen()">
+            <span class="fa m fa-image"></span><e>gallery</e>
+          </div>
+          <div class="men projects">
+            <a href="https://github.com/kyaw-zin-aung/"
+              ><span class="fa m fa-code"></span><e>projects</e></a
+            >
+          </div>
+          <div class="men writing" onclick="writeopen()">
+            <span class="fa m  fa-pencil-square-o"></span><e>writings</e>
+          </div>
         </div>
+        <div class="dp" onclick="bgm()"></div>
+        <audio id="bgm" loop>
+          <source src="https://www.dropbox.com/s/85arqxxxab7k0n7/coffin%20meme%20song.mp3?dl=1" type="audio/mpeg" />
+        </audio>
+      </main>
 
-        <br>
+      <detail>
+        <toleft>
+          <h1>Education</h1>
+          <h4>Computer University, Kyaing Tong</h4>
+          <h5>2018-Now</h5>
+          <h4>Diploma in Web Development, Y-Max University - YMU</h4>
+          <h5>2020</h5>
+          <h4>High School, BEHS(Nyaung-Kan)</h4>
+          <h5>2006-2018</h5>
 
-        <section class="bottom">
+          <h1>Key Skills</h1>
+          <h4 class="sk">Java</h4>
+          <span class="progress java "></span>
+          <h4 class="sk">Photoshop</h4>
+          <span class="progress graphic"></span>
+          <h4 class="sk">Python</h4>
+          <span class="progress python"></span>
+          <h4 class="sk">C# / C++</h4>
+          <span class="progress cpp"></span>
+          <h4 class="sk">Web Development</h4>
+          <span class="progress fs"></span>
+          <h4 class="sk">Pen. Testing</h4>
+          <span class="progress ptest"></span>
+        </toleft>
+        <toright>
+          <h1>Projects</h1>
+          <h4>Red Evil-Web App</h4>
+          <p>
+            A web app ,social media like platform where people can signin and
+            hire workers for various household services.
+          </p>
+          <h4>Accident Alert System</h4>
+          <p>
+            Installed in vehicles with various sensors, detects if accident
+            occurs and will send alert msg to the predefined numbers.
+          </p>
 
-            <p>&copy; Ky4w 21n 4uN6</p>
+          <h1>Experience</h1>
+          <h4>Freelancer</h4>
+          <h5>Programmer & Web Developer</h5>
+          <h4>Junior Web Developer</h4>
+          <h5>Red Evil IT Group (2020-2021)</h5>
+          <h4>Bug Bounty Hunter</h4>
+          <h5>Hacker One / Bugcrowd</h5>
 
-        </section>
-
-    <!-- JQuery, Popper, Boostrap -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+          <h1>Hobbies</h1>
+          <hobby>
+            <div class="hobby football "><i class="fa fa-futbol-o"></i></div>
+            <div class="hobby read "><i class=" fa fa-book"></i></div>
+            <div class="hobby movies "><i class=" fa fa-film"></i></div>
+            <div class="hobby coding "><i class="fa fa-laptop"></i></div>
+            <div class="hobby camera "><i class="fa fa-camera"></i></div>
+          </hobby>
+        </toright>
+      </detail>
+    </span>
+    <span id="writing" class="">
+      <close onclick="writeclose()">X</close>
+      <a href="https://www.facebook.com/kyawzinaung.yaw/posts/10218284886538402" alt="Comming Soon">BLOG</a> 
+      <a href="https://www.facebook.com/kyawzinaung.yaw/posts/10217819809471766" alt="Comming Soon">STORY</a>
+    </span>
+    <span id="about" class="">
+      <close onclick="aboutclose()">X</close>
+      <h1>About</h1>
+      <p>
+        I am Kyaw Zin Aung. I am pursuing Computer Science under University of
+        Computer Studies, Kyaing Tong. Creative minds can cast magic to craft
+        anything into treasure. I am in following the path to be a creative
+        mind. I have experience in working on Illustrator, Photoshop, XD. I have
+        created posters, banners, logos for various events and worked on
+        designing.
+        <span>+ This portfolio is fully coded by me.</span>
+        <span>+ I am interested in working with python.</span>
+        <span
+          >+ I am learning Penetration Testing and have a decent skill in web
+          application penetration testing.</span
+        >
+      </p>
+    </span>
+    <span id="gallery">
+      <close onclick="galleryclose()">X</close>
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <img src="https://i.ibb.co/nwMWVqp/image-17.jpg" alt="image-17" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/YcwrWsC/image-16.jpg" alt="image-16" border="0">
+          </li>
+           <li>
+            <img src="https://i.ibb.co/CtdV6C3/image-15.jpg" alt="image-15" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/fNjHjZb/image-14.jpg" alt="image-14" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/s13Q7fF/image-13.webp" alt="image-13" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/gJJY6jG/image-12.jpg" alt="image-12" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/SwCmck5/image-11.png" alt="image-11" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/Wv4M88f/image-8.jpg" alt="image-8" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/S7htKyz/image-10.jpg" alt="image-10" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/QD76W9F/image-9.jpg" alt="image-9" border="0">
+          </li>
+           <li>
+            <img src="https://i.ibb.co/JsZP5rC/image-6.jpg" alt="image-6" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/82NrSJ5/image-7.jpg" alt="image-7" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/wpSBx7P/image-5.jpg" alt="image-5" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/rbscDBz/image-4.jpg" alt="image-4" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/mb1GbH1/image-3.jpg" alt="image-3" border="0">
+          </li>
+          <li>
+            <img src="https://i.ibb.co/bbppnMz/image-1.png" alt="image-1" border="0">
+          </li>
+        </ul>
+      </div>
+    </span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
+    
+      // You can also use "$(window).load(function() {"
 
-        $(document).ready(function(){
-
-            $(".salmon").click(function(){
-
-                $(".first, .bottom,.jumbotron").css("background","salmon");
-
-            });
-
-            $(".black").click(function(){
-
-                $(".first,.bottom,.wrap,body").css("background","black");
-
-            });
-
-            $(".tomato").click(function(){
-
-                $(".first,.bottom,.jumbotron").css("background","tomato");
-
-            });
-
-            $(".gold").click(function(){
-
-                $(".first,.bottom,.jumbotron,.wrap").css("background","gold");
-
-            });
-
-            $(".khaki").click(function(){
-
-                $(".first,.bottom,.jumbotron").css("background","khaki");
-
-            });
-
-            $(".lavender").click(function(){
-
-                $(".first,.bottom,.wrap,body").css("background","lavender");
-
-            });
-
+      $(function() {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function() {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function() {
+            $(".events").append("<li>after event fired.</li>");
+          }
         });
+      });
+      $(function() {
+  $(".rslides").responsiveSlides();
+});
+
+
+
+function writeopen() {
+  var $write = $("#writing");
+  $write.removeClass("close");
+  $write.addClass("open");
+}
+function writeclose() {
+  var $write = $("#writing");
+  $write.addClass("close");
+  $write.removeClass("open");
+}
+function aboutopen() {
+  var $write = $("#about");
+  $write.removeClass("close");
+  $write.addClass("open");
+}
+function aboutclose() {
+  var $write = $("#about");
+  $write.addClass("close");
+  $write.removeClass("open");
+}
+function galleryopen() {
+  var $write = $("#gallery");
+  $write.removeClass("close");
+  $write.addClass("open");
+}
+function galleryclose() {
+  var $write = $("#gallery");
+  $write.addClass("close");
+  $write.removeClass("open");
+}
+var audio = document.getElementById("bgm");
+var playing = false;
+function bgm() {
+  if (playing) {
+    audio.pause();
+    playing = false;
+  } else {
+    audio.play();
+    playing = true;
+  }
+}
+function isElementInViewport(elem) {
+  var $elem = $(elem);
+
+  // Get the scroll position of the page.
+  var scrollElem =
+    navigator.userAgent.toLowerCase().indexOf("webkit") != -1 ? "body" : "html";
+  var viewportTop = $(scrollElem).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  // Get the position of the element on the page.
+  var elemTop = Math.round($elem.offset().top);
+  var elemBottom = elemTop + $elem.height();
+
+  return elemTop < viewportBottom && elemBottom > viewportTop;
+}
+
+// Check if it's time to start the animation.
+function checkAnimation() {
+  var $elem = $(".progress");
+
+  // If the animation has already been started
+  if ($elem.hasClass("anime")) return;
+
+  if (isElementInViewport($elem)) {
+    // Start the animation
+    $elem.addClass("anime");
+  }
+}
+
+// Capture scroll events
+$(window).scroll(function() {
+  checkAnimation();
+});
+
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+    document.querySelector("body").style.visibility = "hidden";
+
+    document.querySelector("#loader").style.visibility = "visible";
+  } else {
+      
+    alert("Portfolio Domain : kyaw-zin-aung.github.io");
+    alert("Like Share Upvote and Give your valuable reviews");
+    document.querySelector("#loader").style.display = "none";
+    document.querySelector("body").style.visibility = "visible";
+
+    document.querySelector("body").classList.remove("hid");
+  }
+};
+
+
+(function ($, window, i) {
+  $.fn.responsiveSlides = function (options) {
+
+    // Default settings
+    var settings = $.extend({
+      "auto": true,             // Boolean: Animate automatically, true or false
+      "speed": 500,             // Integer: Speed of the transition, in milliseconds
+      "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds
+      "pager": false,           // Boolean: Show pager, true or false
+      "nav": false,             // Boolean: Show navigation, true or false
+      "random": false,          // Boolean: Randomize the order of the slides, true or false
+      "pause": false,           // Boolean: Pause on hover, true or false
+      "pauseControls": true,    // Boolean: Pause when hovering controls, true or false
+      "prevText": "Previous",   // String: Text for the "previous" button
+      "nextText": "Next",       // String: Text for the "next" button
+      "maxwidth": "",           // Integer: Max-width of the slideshow, in pixels
+      "navContainer": "",       // Selector: Where auto generated controls should be appended to, default is after the <ul>
+      "manualControls": "",     // Selector: Declare custom pager navigation
+      "namespace": "rslides",   // String: change the default namespace used
+      "before": $.noop,         // Function: Before callback
+      "after": $.noop           // Function: After callback
+    }, options);
+
+    return this.each(function () {
+
+      // Index for namespacing
+      i++;
+
+      var $this = $(this),
+
+        // Local variables
+        vendor,
+        selectTab,
+        startCycle,
+        restartCycle,
+        rotate,
+        $tabs,
+
+        // Helpers
+        index = 0,
+        $slide = $this.children(),
+        length = $slide.length,
+        fadeTime = parseFloat(settings.speed),
+        waitTime = parseFloat(settings.timeout),
+        maxw = parseFloat(settings.maxwidth),
+
+        // Namespacing
+        namespace = settings.namespace,
+        namespaceIdx = namespace + i,
+
+        // Classes
+        navClass = namespace + "_nav " + namespaceIdx + "_nav",
+        activeClass = namespace + "_here",
+        visibleClass = namespaceIdx + "_on",
+        slideClassPrefix = namespaceIdx + "_s",
+
+        // Pager
+        $pager = $("<ul class='" + namespace + "_tabs " + namespaceIdx + "_tabs' />"),
+
+        // Styles for visible and hidden slides
+        visible = {"float": "left", "position": "relative", "opacity": 1, "zIndex": 2},
+        hidden = {"float": "none", "position": "absolute", "opacity": 0, "zIndex": 1},
+
+        // Detect transition support
+        supportsTransitions = (function () {
+          var docBody = document.body || document.documentElement;
+          var styles = docBody.style;
+          var prop = "transition";
+          if (typeof styles[prop] === "string") {
+            return true;
+          }
+          // Tests for vendor specific prop
+          vendor = ["Moz", "Webkit", "Khtml", "O", "ms"];
+          prop = prop.charAt(0).toUpperCase() + prop.substr(1);
+          var i;
+          for (i = 0; i < vendor.length; i++) {
+            if (typeof styles[vendor[i] + prop] === "string") {
+              return true;
+            }
+          }
+          return false;
+        })(),
+
+        // Fading animation
+        slideTo = function (idx) {
+          settings.before(idx);
+          // If CSS3 transitions are supported
+          if (supportsTransitions) {
+            $slide
+              .removeClass(visibleClass)
+              .css(hidden)
+              .eq(idx)
+              .addClass(visibleClass)
+              .css(visible);
+            index = idx;
+            setTimeout(function () {
+              settings.after(idx);
+            }, fadeTime);
+          // If not, use jQuery fallback
+          } else {
+            $slide
+              .stop()
+              .fadeOut(fadeTime, function () {
+                $(this)
+                  .removeClass(visibleClass)
+                  .css(hidden)
+                  .css("opacity", 1);
+              })
+              .eq(idx)
+              .fadeIn(fadeTime, function () {
+                $(this)
+                  .addClass(visibleClass)
+                  .css(visible);
+                settings.after(idx);
+                index = idx;
+              });
+          }
+        };
+
+      // Random order
+      if (settings.random) {
+        $slide.sort(function () {
+          return (Math.round(Math.random()) - 0.5);
+        });
+        $this
+          .empty()
+          .append($slide);
+      }
+
+      // Add ID's to each slide
+      $slide.each(function (i) {
+        this.id = slideClassPrefix + i;
+      });
+
+      // Add max-width and classes
+      $this.addClass(namespace + " " + namespaceIdx);
+      if (options && options.maxwidth) {
+        $this.css("max-width", maxw);
+      }
+
+      // Hide all slides, then show first one
+      $slide
+        .hide()
+        .css(hidden)
+        .eq(0)
+        .addClass(visibleClass)
+        .css(visible)
+        .show();
+
+      // CSS transitions
+      if (supportsTransitions) {
+        $slide
+          .show()
+          .css({
+            // -ms prefix isn't needed as IE10 uses prefix free version
+            "-webkit-transition": "opacity " + fadeTime + "ms ease-in-out",
+            "-moz-transition": "opacity " + fadeTime + "ms ease-in-out",
+            "-o-transition": "opacity " + fadeTime + "ms ease-in-out",
+            "transition": "opacity " + fadeTime + "ms ease-in-out"
+          });
+      }
+
+      // Only run if there's more than one slide
+      if ($slide.length > 1) {
+
+        // Make sure the timeout is at least 100ms longer than the fade
+        if (waitTime < fadeTime + 100) {
+          return;
+        }
+
+        // Pager
+        if (settings.pager && !settings.manualControls) {
+          var tabMarkup = [];
+          $slide.each(function (i) {
+            var n = i + 1;
+            tabMarkup +=
+              "<li>" +
+              "<a href='#' class='" + slideClassPrefix + n + "'>" + n + "</a>" +
+              "</li>";
+          });
+          $pager.append(tabMarkup);
+
+          // Inject pager
+          if (options.navContainer) {
+            $(settings.navContainer).append($pager);
+          } else {
+            $this.after($pager);
+          }
+        }
+
+        // Manual pager controls
+        if (settings.manualControls) {
+          $pager = $(settings.manualControls);
+          $pager.addClass(namespace + "_tabs " + namespaceIdx + "_tabs");
+        }
+
+        // Add pager slide class prefixes
+        if (settings.pager || settings.manualControls) {
+          $pager.find('li').each(function (i) {
+            $(this).addClass(slideClassPrefix + (i + 1));
+          });
+        }
+
+        // If we have a pager, we need to set up the selectTab function
+        if (settings.pager || settings.manualControls) {
+          $tabs = $pager.find('a');
+
+          // Select pager item
+          selectTab = function (idx) {
+            $tabs
+              .closest("li")
+              .removeClass(activeClass)
+              .eq(idx)
+              .addClass(activeClass);
+          };
+        }
+
+        // Auto cycle
+        if (settings.auto) {
+
+          startCycle = function () {
+            rotate = setInterval(function () {
+
+              // Clear the event queue
+              $slide.stop(true, true);
+
+              var idx = index + 1 < length ? index + 1 : 0;
+
+              // Remove active state and set new if pager is set
+              if (settings.pager || settings.manualControls) {
+                selectTab(idx);
+              }
+
+              slideTo(idx);
+            }, waitTime);
+          };
+
+          // Init cycle
+          startCycle();
+        }
+
+        // Restarting cycle
+        restartCycle = function () {
+          if (settings.auto) {
+            // Stop
+            clearInterval(rotate);
+            // Restart
+            startCycle();
+          }
+        };
+
+        // Pause on hover
+        if (settings.pause) {
+          $this.hover(function () {
+            clearInterval(rotate);
+          }, function () {
+            restartCycle();
+          });
+        }
+
+        // Pager click event handler
+        if (settings.pager || settings.manualControls) {
+          $tabs.bind("click", function (e) {
+            e.preventDefault();
+
+            if (!settings.pauseControls) {
+              restartCycle();
+            }
+
+            // Get index of clicked tab
+            var idx = $tabs.index(this);
+
+            // Break if element is already active or currently animated
+            if (index === idx || $("." + visibleClass).queue('fx').length) {
+              return;
+            }
+
+            // Remove active state from old tab and set new one
+            selectTab(idx);
+
+            // Do the animation
+            slideTo(idx);
+          })
+            .eq(0)
+            .closest("li")
+            .addClass(activeClass);
+
+          // Pause when hovering pager
+          if (settings.pauseControls) {
+            $tabs.hover(function () {
+              clearInterval(rotate);
+            }, function () {
+              restartCycle();
+            });
+          }
+        }
+
+        // Navigation
+        if (settings.nav) {
+          var navMarkup =
+            "<a href='#' class='" + navClass + " prev'>" + settings.prevText + "</a>" +
+            "<a href='#' class='" + navClass + " next'>" + settings.nextText + "</a>";
+
+          // Inject navigation
+          if (options.navContainer) {
+            $(settings.navContainer).append(navMarkup);
+          } else {
+            $this.after(navMarkup);
+          }
+
+          var $trigger = $("." + namespaceIdx + "_nav"),
+            $prev = $trigger.filter(".prev");
+
+          // Click event handler
+          $trigger.bind("click", function (e) {
+            e.preventDefault();
+
+            var $visibleClass = $("." + visibleClass);
+
+            // Prevent clicking if currently animated
+            if ($visibleClass.queue('fx').length) {
+              return;
+            }
+
+            //  Adds active class during slide animation
+            //  $(this)
+            //    .addClass(namespace + "_active")
+            //    .delay(fadeTime)
+            //    .queue(function (next) {
+            //      $(this).removeClass(namespace + "_active");
+            //      next();
+            //  });
+
+            // Determine where to slide
+            var idx = $slide.index($visibleClass),
+              prevIdx = idx - 1,
+              nextIdx = idx + 1 < length ? index + 1 : 0;
+
+            // Go to slide
+            slideTo($(this)[0] === $prev[0] ? prevIdx : nextIdx);
+            if (settings.pager || settings.manualControls) {
+              selectTab($(this)[0] === $prev[0] ? prevIdx : nextIdx);
+            }
+
+            if (!settings.pauseControls) {
+              restartCycle();
+            }
+          });
+
+          // Pause when hovering navigation
+          if (settings.pauseControls) {
+            $trigger.hover(function () {
+              clearInterval(rotate);
+            }, function () {
+              restartCycle();
+            });
+          }
+        }
+
+      }
+
+      // Max-width fallback
+      if (typeof document.body.style.maxWidth === "undefined" && options.maxwidth) {
+        var widthSupport = function () {
+          $this.css("width", "100%");
+          if ($this.width() > maxw) {
+            $this.css("width", maxw);
+          }
+        };
+
+        // Init fallback
+        widthSupport();
+        $(window).bind("resize", function () {
+          widthSupport();
+        });
+      }
+
+    });
+
+  };
+})(jQuery, this, 0);
 
     </script>
-
-</body>
-
+  </body>
 </html>
-
